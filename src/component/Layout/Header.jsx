@@ -4,6 +4,7 @@ import meals from "../../assets/meals.jpg"
 import hero from "../../assets/hero.jpg"
 import her from "../../assets/her.jpg"
 import hero2 from "../../assets/hero2.jpg"
+import { HeaderCartButton } from "./HeaderCartButton";
 
 export const Header = (props) => {
   return (
@@ -14,9 +15,10 @@ export const Header = (props) => {
             <span className="text-xl font-bold">Logo</span>
           </div>
           <div>
-            <button className="bg-blue-500 hover:bg-blue-600 font-semibold py-2 px-4 rounded">
+            {/* <button className="bg-blue-500 hover:bg-blue-600 font-semibold py-2 px-4 rounded">
               Chart
-            </button>
+            </button> */}
+            <HeaderCartButton />
           </div>
         </div>
       </nav>
