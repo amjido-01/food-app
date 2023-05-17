@@ -1,10 +1,12 @@
-function App() {
+import { Header } from "./component/Layout/Header";
+import './App.css';
 
+function App() {
   return (
     <>
-      <p className="text-4xl text-red-500">hello</p>
+      <Header />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
