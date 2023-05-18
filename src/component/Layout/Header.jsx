@@ -9,7 +9,7 @@ import { HeaderCartButton } from "./HeaderCartButton";
 export const Header = (props) => {
   return (
     <Fragment>
-      <nav className="bg-gray-900 py-2 px-4 sm:px-6 lg:px-8 fixed left-0 text-white top-0 w-full z-10">
+      <nav className="bg-[#8a2b06] py-2 px-4 sm:px-6 lg:px-8 fixed left-0 text-white top-0 w-full z-10">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <span className="text-xl font-bold">Logo</span>

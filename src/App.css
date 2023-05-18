@@ -14,3 +14,37 @@ body {
   object-fit: cover;
   /* transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem); */
 }
+
+.drop {
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+}
+
+.card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.meal-name {
+  margin: 0 0 0.25rem 0;
+}
+
+.btn {
+  border: 1px solid #8a2b06;
+}
+.meals {
+  animation: meals-appear 1s ease-out forwards;
+}
+.test {
+  border: 1px solid #ccc;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
