@@ -12,7 +12,7 @@ export const Header = (props) => {
       <nav className="bg-[#8a2b06] py-2 px-4 sm:px-6 lg:px-8 fixed left-0 text-white top-0 w-full z-10">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <span className="text-xl font-bold">Logo</span>
+            <span className="text-xl font-bold">AlernTech</span>
           </div>
           <div>
             {/* <button className="bg-blue-500 hover:bg-blue-600 font-semibold py-2 px-4 rounded">
@@ -22,8 +22,8 @@ export const Header = (props) => {
           </div>
         </div>
       </nav>
-      <div className="main-img w-full h-[25rem] z-0 overflow-hidden">
-        <img className="img" src={her} alt="table full of meals" />
+      <div className="main-img w-full h-[20rem] z-0 overflow-hidden">
+        <img className="img" src={hero} alt="table full of meals" />
       </div>
     </Fragment>
   );

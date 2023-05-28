@@ -13,7 +13,7 @@ const Backdrop = (props) => {
 
 const ModelOverlay = (props) => {
   return (
-    <div className="fixed top-[20vh] left-[5%] w-[90%] bg-white p-[1rem] rounded-[14px] z-30 model">
+    <div className="fixed top-[10vh] left-[5%] md:left-[10%] w-[80%] mx-auto bg-white p-[1rem] rounded-[14px] z-30 model">
       <div>{props.children}</div>
     </div>
   );

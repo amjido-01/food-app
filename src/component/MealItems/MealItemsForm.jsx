@@ -21,7 +21,7 @@ export const MealItemsForm = (props) => {
   }
 
   return (
-    <form className=" text-right" onSubmit={submitHandler}>
+    <form className="text-right" onSubmit={submitHandler}>
         <Input ref={amountInputRef} label="Amount" input={{
           id: "amount_" + props.id,
           type: "number",
@@ -31,7 +31,7 @@ export const MealItemsForm = (props) => {
           defaultValue: "1"
         }}/>
         <button className="btn hover:bg-[#641e03] active:bg-[#641e03] cursor-pointer bg-[#8a2b06] text-white rounded-[20px] font-bold py-[0.25rem] px-[2rem]">+ Add</button>
-        {amountIsValid && <p>please enter a valid amount (1-5).</p>}
+        {amountIsValid ?  <p>please enter a valid amount (1-5).</p> : ""}
     </form>
   )
 }
